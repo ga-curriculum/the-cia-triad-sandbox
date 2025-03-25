@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      href="{{ site.github.baseurl }}/internal-resources/data/config.json"
+      id="prefetch-config-link-element"
+      as="fetch"
+      crossorigin
+      type="application/json"
+    />
+    <link
+      rel="preload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/fonts/barlow-condensed-bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/fonts/barlow-semi-condensed-semibold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/fonts/nunito-sans-v15-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/fonts/cascadia-mono.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="modulepreload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/js/page-build.js"
+    />
+    <link
+      rel="modulepreload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/js/config.js"
+    />
+    <link
+      rel="preload"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/assets/hero-logo.png"
+      as="image"
+    />
+    <link
+      rel="stylesheet"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/css/page-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/css/code-theme.css"
+    />
+    <script
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/js/highlightjs.js"
+    ></script>
+    <script
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/js/highlightjs-copy.js"
+    ></script>
+    <script
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/js/medium-zoom.js"
+    ></script>
+    <script
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/js/anchor.js"
+    ></script>
+    <script 
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/js/custom.js"
+    ></script>
+    <script
+      src="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/js/custom-defer.js"
+      type="module"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://{{ site.github.pages_hostname }}/{{ site.github.owner_name }}/universal-resources-internal-sandbox/static/md-as-slides-test/unchanged/assets/favicon.png"
+    />
+    <title>The CIA Triad</title>
+  </head>
+  <body>
+    <header id="tc-header-temp" class="border-bottom"></header>
+    <main class="container-lg px-3 mt-4 mb-6 markdown-body">{{ content }}</main>
+  </body>
+</html>
